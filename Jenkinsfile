@@ -51,7 +51,7 @@ pipeline {
                 echo 'Add a deployment enviroment'
             }
         }
-        
+    }
     post {
         always {
             echo 'JENKINS PIPELINE'
@@ -70,4 +70,4 @@ pipeline {
         }
     }
 }
-}
+
